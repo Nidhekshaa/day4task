@@ -1,0 +1,19 @@
+.star{
+    list-style-type:none;
+}
+
+.star li::before{
+    content:"*";
+}
+
+.roman{
+    list-style-type:lower-roman;
+}
+
+.hash{
+    list-style-type:none;
+}
+
+.hash li::before{
+    content:"#";
+}
